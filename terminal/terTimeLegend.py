@@ -52,7 +52,7 @@ def timeStringC(t):
          else: s += ' '*5 + 'times {}'.format(int(3**(3-i)))
       if i != 3: s += '\n\n'
    s += '\nhrs min sec\n\n'
-   s += c[0] + ' is negative\n'
+   s += c[0] + ' is negative one\n'
    s += c[1] + ' is zero\n'
    s += c[2] + ' is one\033[0;0H'
    return s
